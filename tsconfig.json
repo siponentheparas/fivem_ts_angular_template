@@ -20,7 +20,8 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "types": ["@citizenfx/client", "@citizenfx/server"]
+    "types": ["@citizenfx/client", "@citizenfx/server"],
+    "skipLibCheck": true
   },
   "exclude": [
     "node_modules",
