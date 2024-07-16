@@ -1,0 +1,20 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc && cd web && pnpm build",
+    "start": "cd web && pnpm start",
+    "inst": "pnpm i && cd web && pnpm i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@citizenfx/client": "2.0.8958-1",
+    "@citizenfx/server": "2.0.8958-1",
+    "@types/node": "^20.14.10",
+    "esbuild": "^0.23.0",
+    "typescript": "^5.5.3"
+  }
+}
