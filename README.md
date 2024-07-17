@@ -5,6 +5,16 @@ This is a template to quickly set up a project, which uses typescript for script
 To use this template, press the "Use this template" button and select "Create a new repository".
 Or, if you don't want to create a repository, you can just download to source code and start building from there.
 
+You need [pnpm](https://pnpm.io/installation) to build this project, install it.
+After using this template, run pnpm i to install node packages.
+
+Run `pnpm build` to build the whole project. Built files will go to the `dist/` folder.\
+Run `pnpm start` to start a development server for the UI.
+
+To use this as a resource in fivem, you need to build the project with `pnpm build`.\
+Create a resource folder in your server's resources folder, `myresource/` for example.\
+Copy the `dist/` folder and `fxmanifest.lua` file to your `myresource/` folder and start your resource.
+
 ## Support
 I don't provide support regarding this template or teach you how to use typescript/angular, the internet is full of tutorials and courses for ts/angular.
 
