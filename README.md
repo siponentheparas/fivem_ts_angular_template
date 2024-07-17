@@ -15,6 +15,8 @@ To use this as a resource in fivem, you need to build the project with `pnpm bui
 Create a resource folder in your server's resources folder, `myresource/` for example.\
 Copy the `dist/` folder and `fxmanifest.lua` file to your `myresource/` folder and start your resource.
 
+Or you can put the whole project into your resources folder and you only need to run `pnpm build`.
+
 ## Support
 I don't provide support regarding this template or teach you how to use typescript/angular, the internet is full of tutorials and courses for ts/angular.
 
