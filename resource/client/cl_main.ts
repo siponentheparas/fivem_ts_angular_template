@@ -1,1 +1,1 @@
-console.log("moi");
+console.log("Hello, client!");
